@@ -1,0 +1,11 @@
+{
+  "loginTitle": "Log in to Exclusive",
+  "enterDetails": "Enter your details below",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "loginButton": "Login",
+  "noAccount": "Don’t have an account?",
+  "registerLink": "Register",
+  "enable": "Enable",
+  "disable": "Disable"
+}

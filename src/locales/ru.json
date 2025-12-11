@@ -1,0 +1,11 @@
+{
+  "loginTitle": "Войти в Exclusive",
+  "enterDetails": "Введите свои данные ниже",
+  "emailLabel": "Email",
+  "passwordLabel": "Пароль",
+  "loginButton": "Войти",
+  "noAccount": "Нет аккаунта?",
+  "registerLink": "Зарегистрироваться",
+  "enable": "Включить",
+  "disable": "Выключить"
+}
