@@ -13,7 +13,7 @@ const Products = () => {
 
     const getProducts = async () => {
         try {
-            const { data, statusText } = await api.get(searchterm.length >= 3 ? `https://ilkinibadov.com/api/v1/search?searchterm=${searchterm}` : "https://ilkinibadov.com/api/v1/products")
+            const { data, statusText } = await api.get(searchterm.length >= 3 ? `${process.env.API_URL}/search?searchterm=${searchterm}` : "https://ilkinibadov.com/api/v1/products")
             console.log(data)
             if (statusText === "OK") {
                 setProducts(searchterm.length >= 3 ? data.content : data.products)
