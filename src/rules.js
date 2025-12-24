@@ -725,34 +725,30 @@ export function FlowCard() {
 
 Deploying - Deploying React Application React tətbiqini istehsal mühitinə yerləşdirmək deməkdir. 
 Bu, tətbiqin istifadəçilər tərəfindən əlçatan olmasını təmin edir. Bu ən sonuncu addımdır və tətbiqin hazırlanmasından sonra həyata keçirilir.
-*/
+Bunun üçün ilk öncə bizim projectimiz tamamilə hazır vəziyyətdə error olmadan işləməlidir. Daha sonra terminalda npm run build əmrini işlədərək tətbiqin istehsal versiyasını yaradırıq.
 
-
-/*
-
-
-
-
-
-
-
-
-
+Daha sonra biz bu projecti githubda host edə bilərik və ya Netlify, Vercel, Heroku kimi platformalarda yerləşdirə bilərik.
+Netlify-də yerləşdirmək üçün:
+1. İlk öncə netlify.com saytına daxil olub qeydiyyatdan keçirik.
+2. Daha sonra "New site from Git" düyməsini klikləyirik.
+3. GitHub hesabımızı bağlayırıq və layihəmizi seçirik.
+4. Build command olaraq npm run build və Publish directory olaraq build qovluğunu təyin edirik.
+5. Daha sonra "Deploy site" düyməsini klikləyirik və saytımız yerləşdirilir.
+Və bu işləri gördükdən sonra artıq netlify tərəfindən bizə verilən domain vasitəsilə tətbiqimizə hər hansı bir yerdən daxil ola bilərik.
 
 
 
 
 
+                                                Responsive Design in Tailwind CSS
 
+Responsive Design in Tailwind CSS - Tailwind CSS-də Responsive Design veb səhifələrin müxtəlif ekran ölçülərinə uyğunlaşmasını təmin edən bir yanaşmadır.
+Tailwind CSS-də responsive dizayn yaratmaq üçün media sorğularından istifadə olunur. Məsələn, müəyyən bir sinif yalnız müəyyən ekran ölçülərində tətbiq edilə bilər.
+Məsələn:
+<div className="bg-blue-500 md:bg-red-500 lg:bg-green-500">
+    This div has a blue background on small screens, red on medium screens, and green on large screens.
 
-
-
-
-
-
-
-
-
-
-
+lg - large screen üçün (1024px və yuxarı)
+md - medium screen üçün (768px və yuxarı)
+sm - small screen üçün (640px və yuxarı)
 */
